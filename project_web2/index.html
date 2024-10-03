@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>NoteNova</h1>
+            <form id="note-form">
+                <input type="text" id="note-title" placeholder="Note title">
+                <textarea id="note-text" placeholder="Note Details"></textarea>
+                <button type="submit" id="add-btn">Add Note</button>
+            </form>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Your Notes</h2>
+            <hr>
+            <div id="notes" class="notes-container">
+                <!-- Notes will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
